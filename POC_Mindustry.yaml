@@ -1,0 +1,10 @@
+name: POC_Mindustry
+services:
+    mindustry:
+        tty: true
+        stdin_open: true
+        container_name: mindustry
+        ports:
+            - 6567:6567/tcp
+            - 6567:6567/udp
+        image: hetsh/mindustry 
