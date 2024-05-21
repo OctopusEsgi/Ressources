@@ -1,4 +1,4 @@
-name: POC_Mindustry
+name: poc_mindustry
 services:
     mindustry:
         tty: true
